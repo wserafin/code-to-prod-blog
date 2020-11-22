@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: reversewords
+  namespace: reverse-words-stage
+spec:
+  path: /
+  to:
+    kind: Service
+    name: reversewords
+  port:
+    targetPort: 8080
