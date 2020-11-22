@@ -1,5 +1,6 @@
 bases:
 - github.com/wserafin/code-to-prod-blog?ref=config
 - namespace.yaml
+- route.yaml
 patchesStrategicMerge:
 - deployment.yaml
