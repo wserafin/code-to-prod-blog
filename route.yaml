@@ -7,6 +7,6 @@ spec:
   path: /
   to:
     kind: Service
-    name: reversewords
+    name: reverse-words
   port:
     targetPort: 8080
