@@ -3,8 +3,9 @@ kind: Deployment
 metadata:
   name: reverse-words
   labels:
-    app: reverse-words
+    app: reverse-words   
 spec:
+  replicas: 3 
   template:
     spec:
       containers:
