@@ -9,7 +9,7 @@ spec:
     kind: Service
     name: reverse-words
   port:
-    targetPort: 443
+    targetPort: 8080
   tls:
     termination: edge
     insecureEdgeTerminationPolicy: Redirect  
