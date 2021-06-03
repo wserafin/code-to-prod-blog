@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/sync-options: Prune=false
     argocd.argoproj.io/compare-options: IgnoreExtraneous
   name: reverse-words-prod-project-admin
-  namespace: reverse-words-prod
+  namespace: reverse-words-prodution
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
