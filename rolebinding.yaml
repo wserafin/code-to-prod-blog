@@ -4,7 +4,6 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: Prune=false
     argocd.argoproj.io/compare-options: IgnoreExtraneous
-  name:reverse-words-stage
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
