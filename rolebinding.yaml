@@ -5,6 +5,7 @@ metadata:
     argocd.argoproj.io/sync-options: Prune=false
     argocd.argoproj.io/compare-options: IgnoreExtraneous
   namespace: reverse-words-stage-project-admin
+  namespace: reverse-words-stage
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -13,4 +14,4 @@ subjects:
   - apiGroup: rbac.authorization.k8s.io
     kind: User
     name: user1
-    namespace: reverse-words-stage
+    
